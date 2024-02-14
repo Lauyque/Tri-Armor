@@ -1,7 +1,7 @@
 # Tri-Armor
 
 Projet Tri-Armor :
-Ce projet est constitué d'un jeu mario like en 3 ou 4 niveaux, dans le thème de la bretagne.  
+Ce projet est constitué d'un jeu comme mario en 4 niveaux, dans le thème de la bretagne.  
 On utilisera py game pour développer le jeu  
 **Le lore : Le joueur devra amadouer le gardien empêchant le joueur d'accèder à son objectif, la recette top secrète du phare breton. Ce dernier s'avère être un gros mangeur, le but du jeu sera donc de donner un certain nombre de nourriture prédertiminé par le gardien pendant les niveaux.**  
   
