@@ -17,7 +17,7 @@ Les différents niveaux sont aussi disponibles
 
 # Lancer le jeu
 
-- Installer les librairies avec le fichier requirements.txt "$ pip install -r requirements.txt"
+- Installer les librairies avec le fichier requirements.txt `pip install -r requirements.txt`
 - Nous utilisons la version 11 de python !!
-- Il vous suffit de lancer le "main.py"
+- Il vous suffit de lancer le `main.py`
 
