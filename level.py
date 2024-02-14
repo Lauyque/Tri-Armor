@@ -34,14 +34,14 @@ class Level:
         self.image_egg = pygame.image.load(objets.egg.url)
         self.image_flour = pygame.image.load(objets.flour.url)
         self.image_water = pygame.image.load(objets.water.url)
-        self.pop_up_beurre = pygame.image.load('assets\ImagesTri-Armor\ArrièrePlanTri-Armor\popup_beurre.png')
-        self.pop_up_egg = pygame.image.load('assets\ImagesTri-Armor\ArrièrePlanTri-Armor\popup_egg.png')
-        self.pop_up_flour = pygame.image.load('assets\ImagesTri-Armor\ArrièrePlanTri-Armor\popup_flour.png')
-        self.pop_up_water = pygame.image.load('assets\ImagesTri-Armor\ArrièrePlanTri-Armor\popup_water.png')
-        self.pop_up_fin = pygame.image.load('assets\ImagesTri-Armor\ArrièrePlanTri-Armor\popup_fin.png')
+        self.pop_up_beurre = pygame.image.load('assets/ImagesTri-Armor/ArrierePlanTri-Armor/popup_beurre.png')
+        self.pop_up_egg = pygame.image.load('assets/ImagesTri-Armor/ArrierePlanTri-Armor/popup_egg.png')
+        self.pop_up_flour = pygame.image.load('assets/ImagesTri-Armor/ArrierePlanTri-Armor/popup_flour.png')
+        self.pop_up_water = pygame.image.load('assets/ImagesTri-Armor/ArrierePlanTri-Armor/popup_water.png')
+        self.pop_up_fin = pygame.image.load('assets/ImagesTri-Armor/ArrierePlanTri-Armor/popup_fin.png')
         
 
-        self.image_fond = pygame.image.load('assets\ImagesTri-Armor\ArrièrePlanTri-Armor\space.png')
+        self.image_fond = pygame.image.load('assets/ImagesTri-Armor/ArrierePlanTri-Armor/space.png')
         self.image_fond_rect = self.image_fond.get_rect(center=(self.surface.get_width() // 2, self.surface.get_height() // 2))
 
 
@@ -483,7 +483,7 @@ class Level:
             # Afficher un message de victoire
             font = pygame.font.Font("assets\Font_arcade_classic_2\VCR_OSD_MONO_1.001.ttf", 50)
 
-            message_victoire = pygame.image.load('assets\ImagesTri-Armor\ArrièrePlanTri-Armor\popup_niveau-termine.png')
+            message_victoire = pygame.image.load('assets/ImagesTri-Armor/ArrierePlanTri-Armor/popup_niveau-termine.png')
             message_rect = message_victoire.get_rect(center=(self.display_surface.get_width() / 2, self.display_surface.get_height() / 2))
             self.display_surface.blit(message_victoire, message_rect)
             pygame.display.update()

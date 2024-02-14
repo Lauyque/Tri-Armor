@@ -11,7 +11,7 @@ class Player(pygame.sprite.Sprite):
         self.rect = self.image.get_rect(topleft=pos)
         #self.image = pygame.Surface((32,58))
         #self.image.fill('red')
-        self.collect_sound = pygame.mixer.Sound("assets\music\coin-collect-retro-8-bit-sound-effect-145251.mp3")  # Replace "path_to_collect_sound.wav" with the actual path to your sound file
+        self.collect_sound = pygame.mixer.Sound("assets/music/coin-collect.mp3")
         self.show_inventory = False
         self.direction = pygame.math.Vector2(0,0)
         self.speed = 3

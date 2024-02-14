@@ -26,7 +26,7 @@ class jeu():
         self.map = map
         self.menu = menu_objet 
         self.current_level = Level(level_map, self.screen, self)
-        self.fond_image = pygame.image.load('assets/ImagesTri-Armor/ArrièrePlanTri-Armor/space.png')
+        self.fond_image = pygame.image.load('assets/ImagesTri-Armor/ArrierePlanTri-Armor/space.png')
         self.fond_image = pygame.transform.scale(self.fond_image, (screen_width, screen_height))
         if map == 1:
             screen_height = len(level_map) * tile_size
@@ -59,7 +59,7 @@ class jeu():
         pygame.mixer.music.set_volume(self.volume / 100.0) 
         
         
-        self.background = pygame.image.load('assets/ImagesTri-Armor/ArrièrePlanTri-Armor/Gameplay_Background.png')
+        self.background = pygame.image.load('assets/ImagesTri-Armor/ArrierePlanTri-Armor/Gameplay_Background.png')
         self.background = pygame.transform.scale(self.background, (screen_width, screen_height))
          # Définir le volume initial
 
@@ -219,7 +219,7 @@ class jeu():
                 "partit donc à l’aventure, à l’endroit où la recette est gardée par "
                 "le peuple celtique, le phare de Saint-Mathieu.")
         
-        font = pygame.font.Font("assets\Font_arcade_classic_2\VCR_OSD_MONO_1.001.ttf", 36)
+        font = pygame.font.Font("assets/Font_arcade_classic_2/VCR_OSD_MONO_1.001.ttf", 36)
         
         wrapped_text = wrap_text(text, font, screen_width)
         y_pos = screen_height

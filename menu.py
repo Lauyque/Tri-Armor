@@ -38,7 +38,7 @@ class Menu:
         pygame.mixer.music.set_volume(self.volume / 100.0)  # Définir le volume initial
 
         # Chargement de l'image de fond
-        self.background_image = pygame.image.load("assets/ImagesTri-Armor/ArrièrePlanTri-Armor/Menu.png").convert()
+        self.background_image = pygame.image.load("assets/ImagesTri-Armor/ArrierePlanTri-Armor/Menu.png").convert()
         self.background_image = pygame.transform.scale(self.background_image, (self.largeur_surface, self.hauteur_surface))
 
        # Police
@@ -101,7 +101,7 @@ class Menu:
         self.surface.fill((135,206,250))
         # Background
         # Charger l'image de fond
-        background_image = pygame.image.load('assets/ImagesTri-Armor/ArrièrePlanTri-Armor/parchemin.png')
+        background_image = pygame.image.load('assets/ImagesTri-Armor/ArrierePlanTri-Armor/parchemin.png')
         # Redimensionner l'image pour qu'elle s'adapte à la taille de la surface
         background_image = pygame.transform.scale(background_image, (self.largeur_surface, self.hauteur_surface))
         self.surface.blit(background_image, (0, 0))
@@ -113,10 +113,10 @@ class Menu:
 
         worlds = []
         for i, (title, image_path) in enumerate([
-            ('Monde 1', 'assets/ImagesTri-Armor/ArrièrePlanTri-Armor/daytime.png'), 
-            ('Monde 2', 'assets/ImagesTri-Armor/ArrièrePlanTri-Armor/sunset2.png'),
-            ('Monde 3', 'assets/ImagesTri-Armor/ArrièrePlanTri-Armor/MoonNight.png'), 
-            ('Monde 4', 'assets/ImagesTri-Armor/ArrièrePlanTri-Armor/MoonNight2.png')]):
+            ('Monde 1', 'assets/ImagesTri-Armor/ArrierePlanTri-Armor/daytime.png'), 
+            ('Monde 2', 'assets/ImagesTri-Armor/ArrierePlanTri-Armor/sunset2.png'),
+            ('Monde 3', 'assets/ImagesTri-Armor/ArrierePlanTri-Armor/MoonNight.png'), 
+            ('Monde 4', 'assets/ImagesTri-Armor/ArrierePlanTri-Armor/MoonNight2.png')]):
             
             x, y = [150, 550][i % 2], [150, 410][i // 2]
             if self.mondes_debloques[i + 1]:
@@ -264,7 +264,7 @@ class Menu:
         self.surface.fill((135,206,250))
         # Background
         # Charger l'image de fond
-        background_image = pygame.image.load('assets/ImagesTri-Armor/ArrièrePlanTri-Armor/parchemin.png')
+        background_image = pygame.image.load('assets/ImagesTri-Armor/ArrierePlanTri-Armor/parchemin.png')
         # Redimensionner l'image pour qu'elle s'adapte à la taille de la surface
         background_image = pygame.transform.scale(background_image, (self.largeur_surface, self.hauteur_surface))
         self.surface.blit(background_image, (0, 0))
